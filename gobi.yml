@@ -7,7 +7,9 @@ config_context: true
 interfaces: true
 group_names_raw: true
 group_by:
+ - device_roles
  - platforms
+ - device_types
  - tenants
  - sites
  - racks
